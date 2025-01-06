@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Responsive Laravel Admin Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="NobleUI">
+    <meta name="keywords"
+        content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, laravel, theme, front-end, ui kit, web">
+
+    <title>SIAR KAMI - Login</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- End fonts -->
+
+    <!-- CSRF Token -->
+    <meta name="_token" content="54aZNtE3srCtWYlkZudWNhM14YNdH276QCXqQ9bC">
+
+    <link rel="shortcut icon" href="https://siarkami.com/icon.png">
+
+    <!-- plugin css -->
+    <link href="https://siarkami.com/assets/fonts/feather-font/css/iconfont.css" rel="stylesheet" />
+    <link href="https://siarkami.com/assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" />
+    <link href="https://siarkami.com/css/login.css" rel="stylesheet" />
+    <!-- end plugin css -->
+
+    
+    <!-- common css -->
+    <link href="https://siarkami.com/css/app.css" rel="stylesheet" />
+    <!-- end common css -->
+
+    </head>
+
+<body data-base-url="https://siarkami.com">
+
+    <script src="https://siarkami.com/assets/js/spinner.js"></script>
+
+    <div class="main-wrapper" id="app">
+        <div class="page-wrapper full-page">
+                <div class="page-content d-flex align-items-center justify-content-center">
+
+        <div class="row w-100 mx-0 auth-page">
+            <div class="col-md-8 col-xl-6 mx-auto">
+                <div class="card card-login">
+                    <div class="row">
+                        <div class="col-md-4 pe-md-0">
+                            <div class="auth-side-wrapper"
+                                style="background-image: url(https://siarkami.com/assets/images/logincard2.png); background-position: center; background-size: 110%">
+                            </div>
+                        </div>
+                        <div class="col-md-8 ps-md-0">
+                            <div class="auth-form-wrapper px-4 py-5">
+                                <span class="d-block mb-2 text-brand">SIAR<img src="https://siarkami.com/assets/images/logo.png"
+                                        style="width: 55px; margin-bottom: 3px"></span>
+                                <h5 class="text-muted fw-normal mb-4">Welcome back! Log in to your account.</h5>
+                                                                <form action="login" method="post" class="forms-sample">
+                                    <input type="hidden" name="_token" value="54aZNtE3srCtWYlkZudWNhM14YNdH276QCXqQ9bC" autocomplete="off">                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="username" name="username"
+                                            placeholder="Username">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password" name="password"
+                                            autocomplete="current-password" placeholder="Password">
+                                    </div>
+                                    <div>
+                                        <button type="submit" class="btn btn-primary me-2 mb-2 mb-md-0">Login</button>
+                                                                                    <button type="button" class="btn btn-outline-primary btn-icon-text mb-2 mb-md-0"
+                                                disabled>
+                                                <i class="btn-icon-prepend" data-feather="arrow-right-circle"></i>
+                                                Login SSO
+                                            </button>
+
+                                                                            </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        </div>
+    </div>
+
+    <!-- base js -->
+    <script src="https://siarkami.com/js/app.js"></script>
+    <script src="https://siarkami.com/assets/plugins/feather-icons/feather.min.js"></script>
+    <!-- end base js -->
+
+    <!-- plugin js -->
+        <!-- end plugin js -->
+
+    <!-- common js -->
+    <script src="https://siarkami.com/assets/js/template.js"></script>
+    <!-- end common js -->
+
+    </body>
+
+</html>
